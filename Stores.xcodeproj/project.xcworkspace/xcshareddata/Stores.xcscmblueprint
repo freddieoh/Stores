@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2633A232B5F1FFAA309FA46AF20902CA0280EE58",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2633A232B5F1FFAA309FA46AF20902CA0280EE58" : 9223372036854775807,
+    "A60FB835D870A464014C0297DBC3290BBDB61329" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B806A140-7943-4B63-9A70-5EE3F495C62F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2633A232B5F1FFAA309FA46AF20902CA0280EE58" : "Stores\/",
+    "A60FB835D870A464014C0297DBC3290BBDB61329" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Stores",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Stores.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/freddieoh\/Stores.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2633A232B5F1FFAA309FA46AF20902CA0280EE58"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/freddieoh\/HoustonSept2016iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A60FB835D870A464014C0297DBC3290BBDB61329"
+    }
+  ]
+}

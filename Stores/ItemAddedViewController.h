@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import"Store.h"
 #import "ItemAdd.h"
 
 @protocol ItemAddViewControllerDelegate <NSObject>
@@ -18,5 +19,4 @@
 @interface ItemAddedViewController : UIViewController
 @property (nonatomic,weak) IBOutlet UITextField *itemNameTextField;
 @property (nonatomic,weak) id<ItemAddViewControllerDelegate>delegate;
-
 @end

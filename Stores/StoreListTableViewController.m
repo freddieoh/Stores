@@ -16,31 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+        
+    //Unarchive NSUserDefaults here
     
-    // Creating objects(store and store number)
-   
-    Store *nike =[[Store alloc]init];
-    nike.storeName = @"Nike";
-    nike.storeNumber = @"1964";
-    nike.itemAdded = [NSMutableArray array];
+    NSData *data = [[NSUserDefaults standardUserDefaults]objectForKey:@"storeList"];
     
-    Store *adidas = [[Store alloc]init];
-    adidas.storeName = @"Adidas";
-    adidas.storeNumber = @"1924";
-    adidas.itemAdded = [NSMutableArray array];
+    if(data == nil) {
+         storeLists = [[NSMutableArray alloc]init];
+    } else {
+         storeLists = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    }
     
-    Store *goyard = [[Store alloc]init];
-    goyard.storeName = @"Goyard";
-    goyard.storeNumber = @"1853";
-    goyard.itemAdded = [NSMutableArray array];
+    [self.tableView reloadData];
     
-    Store *louisVutton = [[Store alloc]init];
-    louisVutton.storeName = @"Louis Vutton";
-    louisVutton.storeNumber = @"1854";
-    louisVutton.itemAdded = [NSMutableArray array];
-    
-    storeLists = [NSMutableArray arrayWithObjects:nike,adidas,goyard,louisVutton, nil];
- 
 }
 
 - (void)didReceiveMemoryWarning {
@@ -88,7 +76,17 @@
 //add Delegate Method
 -(void) addStoreListViewControllerDidAddStoreList:(Store *)storeList {
     [storeLists addObject:storeList];
+    
     [self.tableView reloadData];
+    NSUserDefaults *userDefaults= [NSUserDefaults standardUserDefaults];
+    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:storeLists];
+    
+    [userDefaults setObject:data forKey:@"storeList"];
+    [userDefaults synchronize];
+}
+-(void)savedDataList {
+    
+   
 }
 
 /*

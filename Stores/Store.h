@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Store : NSObject
+@interface Store : NSObject<NSCoding>
 
 @property(nonatomic, copy) NSString *storeName;
 @property(nonatomic, copy) NSString *storeNumber;

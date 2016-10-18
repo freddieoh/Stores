@@ -10,4 +10,15 @@
 
 @implementation ItemAdd
 
+-(id) initWithCoder:(NSCoder *)decoder {
+    
+    self.itemName= [decoder decodeObjectForKey:@"itemName"];
+    return self;
+}
+
+- (void) encodeWithCoder:(NSCoder *)encoder {
+    
+    [encoder encodeObject:self.itemName forKey:@"itemName"];
+    
+}
 @end

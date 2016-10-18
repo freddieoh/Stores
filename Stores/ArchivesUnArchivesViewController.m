@@ -1,40 +1,30 @@
 //
-//  ItemAddedViewController.m
+//  ArchivesUnArchivesViewController.m
 //  Stores
 //
-//  Created by Fredrick Ohen on 10/11/16.
+//  Created by Fredrick Ohen on 10/13/16.
 //  Copyright © 2016 GeeCode. All rights reserved.
 //
 
-#import "ItemAddedViewController.h"
+#import "ArchivesUnArchivesViewController.h"
 
-@interface ItemAddedViewController ()
+@interface ArchivesUnArchivesViewController ()
 
 @end
 
-@implementation ItemAddedViewController
+@implementation ArchivesUnArchivesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
 
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-
-    
+    // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)savedButtonPressed:(id)sender {
-
-   ItemAdd *itemAdded = [[ItemAdd alloc]init];
-   itemAdded.itemName = self.itemNameTextField.text;
-    
-    [self.delegate itemAddDidAddController:itemAdded];
-    [self dismissViewControllerAnimated:YES completion:nil];
-    
-
-}
 /*
 #pragma mark - Navigation
 

@@ -18,6 +18,7 @@
 		1F4749631DAD426500377963 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4749621DAD426500377963 /* AddViewController.m */; };
 		1F4749661DAD6CA400377963 /* ItemAddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4749651DAD6CA400377963 /* ItemAddedViewController.m */; };
 		1F4749691DAE84D000377963 /* ItemAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4749681DAE84D000377963 /* ItemAdd.m */; };
+		1F7681351DB011910047B972 /* ArchivesUnArchivesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7681341DB011910047B972 /* ArchivesUnArchivesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		1F4749651DAD6CA400377963 /* ItemAddedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemAddedViewController.m; sourceTree = "<group>"; };
 		1F4749671DAE84D000377963 /* ItemAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemAdd.h; sourceTree = "<group>"; };
 		1F4749681DAE84D000377963 /* ItemAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemAdd.m; sourceTree = "<group>"; };
+		1F7681331DB011910047B972 /* ArchivesUnArchivesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchivesUnArchivesViewController.h; sourceTree = "<group>"; };
+		1F7681341DB011910047B972 /* ArchivesUnArchivesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchivesUnArchivesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 			children = (
 				1F05DDEB1DABFFB100415C82 /* AppDelegate.h */,
 				1F05DDEC1DABFFB100415C82 /* AppDelegate.m */,
+				1F7681331DB011910047B972 /* ArchivesUnArchivesViewController.h */,
+				1F7681341DB011910047B972 /* ArchivesUnArchivesViewController.m */,
 				1F05DDFF1DAC005F00415C82 /* Store.h */,
 				1F05DE001DAC005F00415C82 /* Store.m */,
 				1F05DDF11DABFFB100415C82 /* Main.storyboard */,
@@ -182,6 +187,7 @@
 				1F4749631DAD426500377963 /* AddViewController.m in Sources */,
 				1F4749691DAE84D000377963 /* ItemAdd.m in Sources */,
 				1F05DDEA1DABFFB100415C82 /* main.m in Sources */,
+				1F7681351DB011910047B972 /* ArchivesUnArchivesViewController.m in Sources */,
 				1F05DE011DAC005F00415C82 /* Store.m in Sources */,
 				1F05DE0A1DAC44E000415C82 /* StoreItemListViewController.m in Sources */,
 			);

@@ -18,8 +18,7 @@
     [super viewDidLoad];
     
     self.title = self.selectedStoreItem.storeName;
-    // self.title = self.selectedStoreItem.storeNumber;
-    //self.title [NSString stringWithFormat:@"%@:%@",self.selectedStoreItem.storeName,self.selectedStoreItem.storeNumber;
+ 
 
 }
 

@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface ItemAdd : NSObject
+@interface ItemAdd : NSObject<NSCoding>
 
 @property(nonatomic, copy) NSString *itemName;
+
 
 @end

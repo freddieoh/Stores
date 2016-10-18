@@ -10,4 +10,18 @@
 
 @implementation Store
 
+-(id)initWithCoder:(NSCoder *)decoder {
+    
+    self.storeName =(NSString *) [decoder decodeObjectForKey:@"storeName"];
+    self.storeNumber = (NSString *) [decoder decodeObjectForKey:@"storeNumber"];
+ 
+    return self;
+}
+
+-(void) encodeWithCoder:(NSCoder *)encoder {
+    
+    [encoder encodeObject:self.storeName forKey:@"storeName"];
+    [encoder encodeObject:self.storeNumber forKey:@"storeNumber"];
+
+}
 @end

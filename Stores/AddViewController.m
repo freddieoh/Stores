@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+ 
 }
 
 -(IBAction) savedButtonPressed{
@@ -26,8 +28,9 @@
     storeList.itemAdded = [NSMutableArray array];
     
     [self.delegate addStoreListViewControllerDidAddStoreList:storeList];
-    
     [self dismissViewControllerAnimated:YES completion:nil];
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
